@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow Layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#B0334785" /> <!-- Use a dark color for shadow -->
+            <corners android:radius="30dp" />
+        </shape>
+    </item>
+    <!-- Gradient Layer -->
+    <item android:left="4dp" android:right="2dp" android:bottom="3dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="25dp" />
+            <gradient
+                android:startColor="#2e88e1"
+                android:centerColor="#b8a070"
+                android:endColor="#FF6F00"
+                android:gradientRadius="200dp"
+
+                android:centerX="0.3"
+                android:angle="0" />
+        </shape>
+    </item>
+</layer-list>
